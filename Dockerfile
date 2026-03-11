@@ -1,5 +1,5 @@
 FROM python:3.11-alpine
-WORKDIR /assignment_1_flask_app
+WORKDIR /app
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 COPY . .
