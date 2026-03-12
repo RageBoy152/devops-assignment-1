@@ -3,6 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    image: RageBoy152/devops-assignment-1:latest
   nginx:
     image: nginx:latest
     ports:
